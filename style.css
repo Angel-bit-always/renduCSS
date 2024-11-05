@@ -1,0 +1,21 @@
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+    background-color: black;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+a {
+  color: white;
+}
+h1{
+    color: rgb(0, 62, 128);
+    font-size: 50px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+p{
+    color: #0d0214;
+    font-weight: bold;
+    font-family: "Rubik Wet Paint", system-ui;
+}
