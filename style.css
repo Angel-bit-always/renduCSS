@@ -1,21 +1,62 @@
-
+section{
+  margin: 0 40px;
+}
 nav {
     display: flex;
     justify-content: center;
     gap: 34px;
     background-color: black;
     font-family: "Roboto Condensed", sans-serif;
+    margin: 0 40px;
   }
+  .photo {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 34px;
+    }
 a {
   color: white;
 }
+
 h1{
     color: rgb(0, 62, 128);
     font-size: 50px;
     font-family: "Roboto Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
 }
-p{
+h2{
     color: #0d0214;
     font-weight: bold;
     font-family: "Rubik Wet Paint", system-ui;
+    justify-items: center;
+}
+p{
+  color: #0d0214;
+  font-family: "Rubik Wet Paint", system-ui;
+  justify-items: center;
+}
+.carte{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  gap: 34px;
+  width: 300px;
+  height: 300px;
+  border:1px solid black;
+}
+.logo{
+  display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 34px;
+}
+button{
+  height: fit-content;
+  background-color: blue;
+}
+button:hover{
+  background-color: rgb(0, 255, 251);
 }
